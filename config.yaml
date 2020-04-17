@@ -1,0 +1,87 @@
+baseURL: /
+languageCode: en-us
+title: Affilio
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy 
+  description: 
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/affilio-logo.svg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Automate. Affiliate.
+    # Hero subtitle (optional)
+    subtitle: allow affilio to automate your affiliate marketing campaigns, help you earn more commissions and save your time.
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Home
+    url: /
+  - title: Try Now
+    url: https://telegram.me/affilioBot
+    button: true
+  section2:
+    title: You're here because you want the best and easiest way to run affiliate campaigns
+    subtitle: And we know it
+    features:
+    - title: Decide and Rule
+      text: We belive that it is you who should decide what content is good for your traffic, so we allow you to choose between wide variety of categories and platform.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Design and Shine
+      text: Everyone has a different DNA and so different preferrences and tastes, we do not serve you a generic dish and ask to start liking it. We serve you with all the ingredients (template elements) and you let you prepare and design your dish (template) yourself.
+      icon: doc-sync
+    - title: Campaigns. Always Online
+      text: Once you have set affilio as per your liking you can netflix and chill, while we will manage your campaigns 24*7 with utmost care.
+      icon: mobile-feed
+  footer:
+    # Logo (from /images/logos/___)
+    logo: affilio-logo.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://telegram.me/affilio
+      icon: telegram
+    - link: https://twitter.com/affiliobot
+      icon: twitter
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Telegram Bot
+          link: https://telegram.me/AffilioBot
+      column2:
+        title: "Videos"
+        links:
+        - text: Get started
+          link: https://www.youtube.com/watch?v=uAyY2YYr7lw
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /
