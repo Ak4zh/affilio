@@ -2,7 +2,7 @@ baseURL: https://affilio.in
 languageCode: en-us
 title: Affilio
 theme: hugo-fresh
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+googleAnalytics: UA-71952110-2
 # Disables warnings
 disableKinds:
 - taxonomy
