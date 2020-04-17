@@ -32,7 +32,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "htpps://t.me/affilioBot"
+    buttonlink: htpps://t.me/affilioBot
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -78,7 +78,7 @@ params:
       column2:
         title: "Videos"
         links:
-        - text: Get started
+        - text: Affilio - Overview
           link: https://www.youtube.com/watch?v=uAyY2YYr7lw
       column3:
         title: "Blog"
